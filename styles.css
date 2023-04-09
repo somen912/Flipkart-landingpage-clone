@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --primary-color:#2874f0;
+}
+
+.container{
+  padding: 0 8px;
+}
+
+header{
+  width: 100%;
+  background-color: var(--primary-color);
+  height:56px;
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+
+
+
+span{
+  color:#ffe500;
+}
+
+header .navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  max-width: 1258px;
+  margin: 0 auto;
+  width: 100%;
+  height:100%;
+
+}
+
+header .logo-container{
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  min-width: 137px;
+  height: 100%;
+}
+
+header .logo-class{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .logo-img{
+  display: flex;
+  align-items: center;
+  width:75px;
+}
+
+header .logo-text{
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header .logo-text-img{
+  width:12px;
+}
+
+header .search-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 12px;
+}
+
+header .search-container .search-bar{
+  display: flex;
+  align-items: center;
+  width:540px;
+  height: 36px;
+
+}
+
+header .search-container .search-bar input{
+  height:100%;
+  width:calc(100% - 36px);
+  padding:0 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0px 0px 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+header .search-container button{
+width: 36px;
+height: 100%;
+border: none;
+background-color: white;
+display: flex;
+align-items: center;
+cursor: pointer;
+padding: 4px 12px 0 8px;
+border-radius: 0px 5px 5px 0px;
+}
+
+header .login-container{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+header .login-container button{
+  padding: 5px 40px;
+  height: 36px;
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header .seller-section{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+header .seller-section a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header .more-section{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+header .more-section a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header .more-section svg{
+  rotate: -90deg;
+  margin-left: 5px;
+}
+
+header .more-section svg:hover{
+  rotate: 90deg;
+}
+
+header .cart-section {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+header .cart-section span{
+  color: white;
+}
+
+header .cart-section a{
+  text-decoration: none;
+}
+
+#section-1{
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+  background-color: white;
+}
+
+
+section .section1-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+}
+
+section .section1-container a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+section .section1-container img{
+  width:50%;
+}
+
+section .section1-container .item-category-name{
+  font-size: 14px;
+}
+
+section .imageslider-container{
+  padding: 10px 6px;
+  background-color: #f1f3f6;
+  margin-top: 2px;
+}
+
+section .slider-button{
+  height: 100px;
+  width:50px;
+  background-color: white;
+  opacity: 1;
+  color: black;
+  top:30%;
+  border-radius: 5%;
+}
+
+section .slider-icon svg{
+  height:30px;
+  width:30px;
+}
+
+section .best-electronics-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+  background-position: 0px bottom;
+  background-repeat: no-repeat;
+  width: 230px;
+  margin: 2px 5px;
+}
+
+section .best-electronics-text{
+  padding:28px 10px 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:230px;
+  text-align: center;
+
+}
+
+.best-electronics-text h2{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.best-electronics-text a{
+  margin-top: 10px;
+}
+
+section .view-all-btn{
+  padding:10px 15px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+
+section .electronics-section-container{
+  display: flex;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px #f1f3f6;
+}
+
+.electronics-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:25px 15px;
+}
+
+.electronics-item-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image{
+  padding: 14px 0px;
+}
+
+.product-image img{
+  height:100px;
+  width:100%;
+}
+
+.product-content{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.product-price{
+  padding-top: 8px;
+  color: green;
+}
+
+.product-category{
+  padding-top: 8px;
+  color: grey;
+  font-weight: normal;
+}
+
+.item-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:1258px;
+  padding: 0px 20px;
+}
+
+footer .footer-container{
+  padding-top: 40px;
+  padding-right: 65px;
+  padding-left: 65px;
+  padding-bottom: 60px;
+  display: flex;
+  text-align: center;
+  background-color: #172337;
+}
+
+footer .link-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2;
+  padding: 10px;
+  padding-right: 60px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer p{
+color: white;
+margin: 0;
+}
+
+footer .address{
+  padding-left: 60px;
+  border-left: 1px solid grey;
+}
+
+.link-section h3{
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer .end-credit{
+  background-color: #172337;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-top: 1px solid grey;
+}
